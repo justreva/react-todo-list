@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  background-color: #17181f;
+  color: #aaa;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.todo-container {
+  display: block;
+  text-align: center;
+  border: 2px solid #313236;
+  padding: 20px;
+}
+.todo-form {
+
+  position: relative;
+  font-weight: 500;
+}
+.todo-form__input {
+  outline: none;
+  margin-right: 2px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: 2px solid #4d5c95;
+  background-color: #17181f;
+  color: #aaa;
+
+}
+.todo-form__button {
+  padding: 7px 12px;
+  border: none;
+  background-color: #4a5fb4;
+  color: #aaa;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .3s
+}
+.todo-form__button:hover{
+  background-color: #3c4e96;
+}
+.todo-list{
+  margin-top: 30px;
+  padding: 0;
+  list-style-type: none;
+  font-weight: 400;
+}
+.todo-list__item{
+  margin-top: 10px;
+  display: flex;
+  border-radius: 10px;
+  border: none;
+  background-color: #121217;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.svg{
+  width: 20px;
+  cursor: pointer;
+  transition: color .2s;
+}
+.svg:hover{
+  color: #4a5fb4
+}
+.svg-edit{
+  margin-right: 5px;
+}
+
+.task-line{
+  text-decoration-line: line-through;
+}
+span{
+  cursor: pointer;
+}
+.input-task{
+  position: absolute;
+  top: 24%;
+  left: 43%;
+  background-color: #121217;
+  border-radius: 10px;
+  border: 2px solid #4d5c95;
+  color: #aaa;
+  outline: none;
+  padding: 10px 22px;
+}
